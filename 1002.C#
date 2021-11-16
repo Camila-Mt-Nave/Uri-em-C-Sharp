@@ -5,9 +5,17 @@
     @nome: Área do Círculo;
 
 */
+using System; 
+
+class Program {
+
+    static void Main(string[] args) { 
 
    double pi = 3.14159;
    double raio = double.Parse(Console.ReadLine());
    double raioAoQuadrado = raio * raio;
    double area = pi * raioAoQuadrado;
    Console.WriteLine($"A={area:.0000}");
+
+   }
+}
