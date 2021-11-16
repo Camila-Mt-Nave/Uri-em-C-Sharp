@@ -1,0 +1,13 @@
+/*
+
+    @autor: Camila;
+    @data: 16/11/2021;
+    @nome: Área do Círculo;
+
+*/
+
+   double pi = 3.14159;
+   double raio = double.Parse(Console.ReadLine());
+   double raioAoQuadrado = raio * raio;
+   double area = pi * raioAoQuadrado;
+   Console.WriteLine($"A={area:.0000}");
