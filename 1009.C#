@@ -1,8 +1,8 @@
 / *
 
     @autor: Camila;
-    @data: 16/11/2021;
-    @nome: ;
+    @data: 19/11/2021;
+    @nome: Salário com Bônus;
 
 * /
 using System; 
@@ -11,6 +11,11 @@ class Program {
 
     static void Main (string [] args) { 
 
+   string nome = Console.ReadLine();
+   double salarioFixo = double.Parse(Console.ReadLine());
+   double totalDeVendas = double.Parse(Console.ReadLine());
+   double conta = salarioFixo + totalDeVendas*0.15;
+   Console.WriteLine($"TOTAL = R$ {conta:0.00}");
    
 
   }
