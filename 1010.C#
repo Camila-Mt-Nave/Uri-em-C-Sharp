@@ -1,8 +1,8 @@
 / *
 
     @autor: Camila;
-    @data: 16/11/2021;
-    @nome: ;
+    @data: 19/11/2021;
+    @nome: Cálculo Simples;
 
 * /
 using System; 
@@ -11,7 +11,16 @@ class Program {
 
     static void Main (string [] args) { 
 
-   
+   string peca1 = Console.ReadLine();
+   string peca2 = Console.ReadLine();
+    
+   string[] Array1 = peca1.Split();
+   string[] Array2 = peca2.Split();
+
+   double d = double.Parse(Array1[1]) * double.Parse(Array1[2]);
+   double d2 = double.Parse(Array2[1]) * double.Parse(Array2[2]);
+   double d3 = d + d2;
+   Console.WriteLine($"VALOR A PAGAR: R$ {d3:0.00}"); 
 
   }
 }
