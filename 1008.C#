@@ -1,8 +1,8 @@
 / *
 
     @autor: Camila;
-    @data: 16/11/2021;
-    @nome: ;
+    @data: 19/11/2021;
+    @nome: Salário;
 
 * /
 using System; 
@@ -11,7 +11,12 @@ class Program {
 
     static void Main (string [] args) { 
 
-   
+   int number = int.Parse(Console.ReadLine());
+   int horasT = int.Parse(Console.ReadLine());
+   double valorPorHora = double.Parse(Console.ReadLine());
+   double salario = horasT * valorPorHora;
+   Console.WriteLine($"NUMBER = {number}");
+   Console.WriteLine($"SALARY = U$ {salario:.00}");   
 
   }
 }
