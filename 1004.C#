@@ -2,7 +2,7 @@
 
     @autor: Camila;
     @data: 16/11/2021;
-    @nome: Soma Simples;
+    @nome: ;
 
 * /
 using System; 
@@ -11,10 +11,7 @@ class Program {
 
     static void Main (string [] args) { 
 
-   int A = int.Parse (Console.ReadLine ());
-   int B = int.Parse (Console.ReadLine ());
-   int Soma = A + B;
-   Console.WriteLine ($ "SOMA = {Soma}");
+   
 
   }
 }
