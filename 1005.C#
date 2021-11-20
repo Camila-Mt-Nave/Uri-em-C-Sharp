@@ -1,8 +1,8 @@
 / *
 
     @autor: Camila;
-    @data: 16/11/2021;
-    @nome: ;
+    @data: 19/11/2021;
+    @nome: Média 1;
 
 * /
 using System; 
@@ -11,7 +11,13 @@ class Program {
 
     static void Main (string [] args) { 
 
-   
+   double N1 = double.Parse(Console.ReadLine());
+   double N2 = double.Parse(Console.ReadLine());
+   double med = N1 * 3.5;
+   double ia = N2 * 7.5;
+   double media = med + ia;
+   double mediaTotal = media / 11;
+   Console.WriteLine($"MEDIA = {mediaTotal:.00000}");
 
   }
 }
