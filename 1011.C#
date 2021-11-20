@@ -1,8 +1,8 @@
 / *
 
     @autor: Camila;
-    @data: 16/11/2021;
-    @nome: ;
+    @data: 19/11/2021;
+    @nome: Esfera;
 
 * /
 using System; 
@@ -11,7 +11,10 @@ class Program {
 
     static void Main (string [] args) { 
 
-   
+   double raio = double.Parse(Console.ReadLine());
+   double raioAoCubo = raio * raio * raio;
+   double volume = ((4f/3f) * 3.14159) * raioAoCubo;
+   Console.WriteLine($"VOLUME = {volume:0.000}");   
 
   }
 }
