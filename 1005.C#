@@ -1,0 +1,17 @@
+/ *
+
+    @autor: Camila;
+    @data: 16/11/2021;
+    @nome: ;
+
+* /
+using System; 
+
+class Program {
+
+    static void Main (string [] args) { 
+
+   
+
+  }
+}
